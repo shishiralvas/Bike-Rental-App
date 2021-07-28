@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bikerental">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.bikerental.ActivityPages.ViewBookingActivity"></activity>
+        <activity android:name="com.example.bikerental.ActivityPages.BookingCompleteActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.BookingSummaryActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.BookingCarActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.VehicleInfoActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.UserViewActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.AddVehicleActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.AddVehicleCategoryActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.RegistrationActivity" />
+        <activity android:name="com.example.bikerental.ActivityPages.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
