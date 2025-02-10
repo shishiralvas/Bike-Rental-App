@@ -1,21 +1,20 @@
 # Bike Rental Mobile App
 
 ## Overview
-BikeRental is a web application designed to simplify the process of renting bikes. Users can browse available bikes, make reservations, and manage their rentals seamlessly. This project demonstrates proficiency in web development technologies and provides a convenient solution for bike rentals.
+BikeRental is a mobile application designed to simplify the process of renting bikes. Users can browse available bikes, make reservations, and manage their rentals seamlessly through an intuitive interface. This project demonstrates proficiency in mobile app development using Android Studio.
 
 ## Features
-- **Browse Bikes:** View a list of available bikes with detailed descriptions and rental prices.
-- **Make Reservations:** Easily reserve bikes for specific dates and times.
-- **User Accounts:** Sign up, log in, and manage your rentals with a personalized account.
-- **Payment Integration:** Secure payment options to complete your reservations.
-- **Responsive Design:** Optimized for both desktop and mobile devices to ensure a smooth user experience.
+- **Browse Bikes:**  View a list of available bikes with detailed descriptions and rental prices.
+- **Make Reservations:**  Easily reserve bikes for specific dates and times.
+- **User Accounts:**  Sign up, log in, and manage your rentals with a personalized account.
+- **Payment Integration:**  Secure payment options to complete your reservations.
+- **GPS Integration:**  Locate available bikes near your location using GPS.
+- **Responsive Design:**  Optimized for both smartphones and tablets to ensure a smooth user experience.
 
 ## Technologies Used
-- **Front-End:** HTML, CSS, JavaScript, Bootstrap
-- **Back-End:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT (JSON Web Tokens)
-- **Payment Gateway:** Stripe API
+- **Languages:**  Java, XML
+- **Framework:**  Android SDK
+- **Tools:**  Android Studio, Git
 
 ## Usage
 - **Browsing Bikes:** Navigate through the list of available bikes, view details, and choose the one that suits your needs.
